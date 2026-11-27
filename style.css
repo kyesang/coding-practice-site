@@ -56,3 +56,70 @@ footer {
   padding: 20px;
   color: #777;
 }
+
+/* ===== Study Log ===== */
+.study-form {
+  display: flex;
+  gap: 10px;
+}
+
+.study-form input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccd3db;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.study-form input:focus {
+  outline: none;
+  border-color: #263a53;
+}
+
+.study-list {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+.study-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e9ee;
+}
+
+.study-list li:last-child {
+  border-bottom: none;
+}
+
+.record-content {
+  word-break: break-all;
+}
+
+.record-date {
+  display: block;
+  margin-top: 4px;
+  font-size: 13px;
+  color: #888;
+}
+
+.delete-button {
+  flex-shrink: 0;
+  padding: 8px 14px;
+  background-color: #c0392b;
+}
+
+.delete-button:hover {
+  background-color: #e74c3c;
+}
+
+.empty-message {
+  color: #888;
+}
+
+.empty-message.hidden {
+  display: none;
+}
